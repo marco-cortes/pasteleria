@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;600&family=Fraunces:wght@100;700;900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./css/styles.css">
+
+  <title>Sunnyside</title>
+</head>
+
+<body>
+  <header class="nav-bar">
+    <nav class="nav">
+      <div class="nav-logo">
+        <a href="./">
+          <img src="./images/logo.svg" alt="Frontend Mentor logo">
+        </a>
+      </div>
+      <div class="nav-links" id="nav-links">
+        <a class="nav-link" href="./">Inicio</a>
+        <a class="nav-link" href="#about">Acerca de</a>
+        <a class="nav-link" href="./order.html">Ordena</a>
+        <a class="nav-link" href="./admin.html">Admin</a>
+      </div>
+      <div class="nav-buttons" id="menu-icon">
+        <img src="./images/icon-hamburger.svg" alt="icon-hamburger">
+      </div>
+    </nav>
+  </header>
+
+  <div class="container order-content">
+    <img src="./images/cake.svg" style="max-width:50%;">
+    <form class="form">
+      <div>
+        <h2 style="text-align:center;">Pedido</h2>
+        <div class="d-flex">
+          <div class="form-input">
+            <label>Nombre:</label>
+            <input placeholder="Ingrese su nombre aquí">
+          </div>
+          <div class="form-input">
+            <label>Apellido:</label>
+            <input placeholder="Ingrese su apellido aquí">
+          </div>
+        </div>
+        <div class="d-flex">
+          <div class="form-input">
+            <label>Teléfono:</label>
+            <input placeholder="Ingrese su teléfono aquí">
+          </div>
+          <div class="form-input">
+            <label>Email:</label>
+            <input placeholder="Ingrese su email aquí">
+          </div>
+        </div>
+        Sabor:
+        <div class="d-flex">
+          <div class="form-input">
+            <label><input type="radio" value="fresa"> Fresa</label>
+          </div>
+          <div class="form-input">
+            <label><input type="radio" value="chocolate"> Chocolate</label>
+          </div>
+          <div class="form-input">
+            <label><input type="radio" value="vainilla"> Vainilla</label>
+          </div>
+        </div>
+        Decoración:
+        <div class="d-flex">
+          <div class="form-input">
+            <label><input type="radio" value="fresa"> Decoración 1</label>
+          </div>
+          <div class="form-input">
+            <label><input type="radio" value="chocolate"> Decoración 2</label>
+          </div>
+          <div class="form-input">
+            <label><input type="radio" value="vainilla"> Decoración 3</label>
+          </div>
+        </div>
+        <div class="d-flex" style="margin-bottom:3rem;">
+          <button>Ordenar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+
+
+  <footer class="footer">
+    <div class="footer-container container">
+      <a href="./" class="footer-logo">sunnyside</a>
+      <div class="footer-links">
+        <a href="#" class="footer-link">Inicio</a>
+        <a href="#" class="footer-link">Acerca de</a>
+        <a href="#" class="footer-link">Ordena</a>
+        <a href="#" class="footer-link">Admin</a>
+      </div>
+      <div class="footer-social">
+        <a href="#" class="footer-social-link">
+          <img src="./images/icon-facebook.svg" alt="icon-facebook">
+        </a>
+        <a href="#" class="footer-social-link">
+          <img src="./images/icon-instagram.svg" alt="icon-instagram">
+        </a>
+        <a href="#" class="footer-social-link">
+          <img src="./images/icon-twitter.svg" alt="icon-twitter">
+        </a>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+  <!--
+  <div class="attribution">
+    Challenge by <a class="nav-link" href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a class="nav-link" href="#">Your Name Here</a>.
+  </div>
+  -->
+
+  <script src="./js/header.js"></script>
+</body>
+
+</html>
